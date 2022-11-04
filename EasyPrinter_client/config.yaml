@@ -1,0 +1,3 @@
+path0: \\"服务端ip或者服务端计算机名"\共享文档\printfolder
+
+#连接打印机那台电脑(服务端)的共享文件夹路径，例如：path0: \\User-2009ky\共享文档\printfolder 或 path0: \\192.168.0.112\共享文档\printfolder
