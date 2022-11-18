@@ -25,7 +25,7 @@
 ```
 开启共享文件夹教程：[点此处](https://zhuanlan.zhihu.com/p/402820328)
 #### 3.2   下载EasyPrinter_server.rar到服务端电脑任意位置解压。[EasyPrinter_server.rar此处下载](https://cowtransfer.com/s/4e5b7e4acdd54a)
-           
+####       注意：windows-xp的用户下载xp兼容版EasyPrinter_server_winxp.rar。[EasyPrinter_server_winxp.rar此处下载](https://cowtransfer.com/s/a968ebcd312743)
 
 #### 3.3   下载EasyPrinter_client.rar到客户端电脑任意位置解压。[EasyPrinter_client.rar此处下载](https://cowtransfer.com/s/f6cb3b27e79d4b)
            
@@ -93,6 +93,34 @@
 4.3.2  上传文件尽量使用复制命令，避免使用剪切。
 
 ```
+### 5.版本更新
+#### 5.1   更新了兼容windows-xp系统的服务端
+5.1.1   xp兼容版服务端使用方法
+
+```
+1、先修改同一目录下的config.yaml文件，指定服务端共享文件夹的本地路径。
+
+2、根据计算机系统，选择版本安装SumatraPDF，并设置为pdf文件的默认打开方式
+   （右击——打开方式——选择其他应用——找到SumatraPDF——勾选“始终使用此应用打开.pdf文件”）
+
+3、运行“轻松打印服务端.exe”
+
+**注意：xp兼容版需要修改pdf默认打开软件，win7及以上系统建议用正式版。** 
+```
+5.1.2   新增开机运行功能
+
+```
+1、无论服务端还是客户端下载startup.rar,将里面两个文件解压到软件的根目录。
+
+2、右击——笔记本打开run.bat，修改exe文件所在的路径。
+
+3、右击——笔记本打开EasyPrinter_startup.vbs,修改run.bat文件所在的路径。
+
+4、按组合键“win+R”，打开“运行”，输入shell:Common Startup，按确定打开“启动”文件夹,复制EasyPrinter_startup.vbs到此文件夹即可，实现开机自动启动。
+```
+####  [*startup.rar此处下载](https://cowtransfer.com/s/b48e8919bf4344)
+
+
 
 ### 参与贡献
 
